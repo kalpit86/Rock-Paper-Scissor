@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0p;
+    background-color: #FF5733;
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.choice-btn{
+    padding: 10px 20px;
+    margin: 12px;
+    border-style:none;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;  
+    color: brown;
+    font-weight: bolder;
+}
+
+.choice-btn:hover{
+      background-color: aliceblue;
+}
+
+#computerImage{
+    padding: 40px 12px;
+    height: 30%;
+    width:30%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e63900;
+    border: solid 4px white;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    #computerImage{
+        width:80%;
+        height: 80%;
+        padding-bottom: 40px;
+    }
+}

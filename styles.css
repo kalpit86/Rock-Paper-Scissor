@@ -22,6 +22,10 @@ body{
       background-color: aliceblue;
 }
 
+.choice-btn:active {
+     background-color: bisque;
+}
+
 #computerImage{
     padding: 40px 12px;
     height: 30%;
